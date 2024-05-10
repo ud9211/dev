@@ -1,0 +1,46 @@
+grep Commands and Options
+
+1. Basic pattern matching:
+   - grep "pattern" file: Searches for lines containing the specified pattern in the given file.
+
+2. Case-insensitive search:
+   - -i or --ignore-case: Ignores case distinctions in both the pattern and input files.
+
+3. Invert match:
+   - -v or --invert-match: Inverts the sense of matching, to select non-matching lines.
+
+4. Match whole words:
+   - -w or --word-regexp: Matches only whole words.
+
+5. Match multiple patterns:
+   - -e pattern or --regexp=pattern: Specifies multiple patterns to be searched.
+
+6. Recursive search in directories:
+   - -r or --recursive: Searches recursively in directories and subdirectories.
+
+7. Output line numbers:
+   - -n or --line-number: Prefixes each line of output with its line number in the file.
+
+8. Output only matching part:
+   - -o or --only-matching: Prints only the matching part of lines.
+
+9. Count matching lines:
+   - -c or --count: Prints only a count of matching lines.
+
+10. Suppress error messages:
+    - -s or --no-messages: Suppresses error messages about nonexistent or unreadable files.
+
+11. Display filename with matches:
+    - -H or --with-filename: Displays the filename for each match.
+
+12. Display filename without matches:
+    - -h or --no-filename: Suppresses the prefixing of filenames on output.
+
+13. Exclude directories from search:
+    - --exclude-dir=DIR: Skips any directory whose base name matches the specified pattern.
+
+14. Extended regular expressions:
+    - -E or --extended-regexp: Uses extended regular expressions.
+
+15. Basic regular expressions:
+    - -G or --basic-regexp: Uses basic regular expressions (default).
