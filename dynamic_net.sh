@@ -1,3 +1,4 @@
+#!/bin/bash
 sudo apt install netplan.io
 netplan –version
 which netplan

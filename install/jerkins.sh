@@ -1,3 +1,4 @@
+#!/bin/bash
 #Create ec2 instance with ubntu and in security settings add inbound rules add new item with port 8080
 
 sudo apt update
