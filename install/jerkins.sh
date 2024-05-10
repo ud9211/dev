@@ -40,3 +40,4 @@ sudo systemctl start jenkins
 sudo systemctl enable jenkins
 sudo systemctl status jenkins
 
+#curl -I http://your-jenkins-url/login | grep "X-Jenkins"
