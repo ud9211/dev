@@ -1,0 +1,6 @@
+#!/bin/bash
+echo "Enter the CSV file name:"
+read file
+echo "Enter column numbers (comma-separated):"
+read columns
+cut -d ',' -f $columns $file

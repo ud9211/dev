@@ -1,0 +1,7 @@
+#!/bin/bash
+echo "Enter your name:"
+read name
+echo "Enter your age:"
+read age
+year_born=$(( $(date +%Y) - age ))
+echo "Hello, $name. You were born in $year_born."

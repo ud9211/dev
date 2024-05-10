@@ -1,0 +1,6 @@
+#!/bin/bash
+echo "Enter the command to schedule:"
+read cmd
+echo "Enter the time (HH:MM):"
+read time
+echo "$cmd" | at $time
